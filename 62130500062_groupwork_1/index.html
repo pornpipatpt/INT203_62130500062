@@ -1,55 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Termgame Garena</title>
+    <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
+    <!-- Using via Google Web Fonts -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- https://tailwindcss.com/docs/installation -->
+    <!-- Using Tailwind via CDN -->
+    <link
+      href="https://unpkg.com/tailwindcss@%5E2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- https://v3.vuejs.org/guide/installation.html#release-notes -->
+    <!-- Vue CDN -->
+    <script src="https://unpkg.com/vue@next"></script>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
 
+  <body class="bg-gray-300">
+    
+      <!-- navbar -->
+      <div class="flex py-3 bg-white">
+        <!-- garena -->
+        <div class="flex w-1/2 pl-80 cursor-pointer">
+          <a href="#">
+            <img src="/images/gareana.png" alt="garena" class="w-27 h-8" />
+          </a>
+        </div>
+          <!-- เข้าสู่ระบบ -->
+        <div class="flex w-1/2 pl-80 cursor-pointer">
+          <div class="border rounded-full p-1 bg-gradient-to-tr">
+            <button class="bg-white p-1 border-opacity-75 rounded-2xl">
+              <img
+                class="h-6 w-6 rounded-full"
+                src="/images/person-icon-red-14.jpg"
+                alt="you"
+              />
+            </button>
+              <span class="text-1 font-semibold">เข้าสู่ระบบ</span>
+          </div>
+        </div>      
+      </div>
 
+      <!-- โฆษณา -->
+      <div class="bg-black w-7/12 h-80 mx-auto  mt-4 ">
+        <div class="mx-auto my-auto">
+          <p>โฆษณา</p>
+        </div>
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Basic Vue Js - HelloWorld App</title>
-        <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
-        <!-- Using via Google Web Fonts -->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-        <!-- https://tailwindcss.com/docs/installation -->
-        <!-- Using Tailwind via CDN -->
-        <link href="https://unpkg.com/tailwindcss@%5E2/dist/tailwind.min.css" rel="stylesheet" />
-        <!-- https://v3.vuejs.org/guide/installation.html#release-notes -->
-        <!-- Vue CDN -->
-        <script src="https://unpkg.com/vue@next"> </script>
+      </div>
+      <!-- เลือกเกมที่จะเติม -->
+      <div class="flex w-1/2 pl-80 cursor-pointer">
+        <p>เลือกเกมที่จะเติม</p>
+      </div>
     
 
-</head>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-<body>
-    <div id="app" class="h-screen max-w-2xl bg-indigo-100 mx-auto">
-        <p class="text-pink-500 text-lg uppercase tracking-wide" >INTRODUCTION</p>
-        <h1 class="text-5xl font-extrabold">Tailwind stories.</h1>
-       
-            <div class="flex justify-center item-center space-x-3">
-                <div class="rounded-full p-1 border bg-gradient-to-tr from-yellow-400 to-pink-500">
-                  <button class="bg-white p-1 rounded-full">
-                  <img class="h-24 w-24 rounded-full" src="/INT203_62130500062/images/1.jpg" alt="you">
-                </button>
-                </div>
-
-                <div class="flex justify-center item-center space-x-3">
-                    <div class="rounded-full p-1 border bg-gradient-to-tr from-yellow-400 to-pink-500">
-                      <button class="bg-white p-1 rounded-full">
-                      <img class="h-24 w-24 rounded-full" src="/INT203_62130500062/images/1.jpg" alt="you">
-                    </button>
-                    </div>
-                    
-                    <div class="flex justify-center item-center space-x-3">
-                        <div class="rounded-full p-1 border bg-gradient-to-tr from-yellow-400 to-pink-500">
-                          <button class="bg-white p-1 rounded-full">
-                          <img class="h-24 w-24 rounded-full" src="/INT203_62130500062/images/1.jpg" alt="you">
-                        </button>
-                        </div>
-        
-    </div>
     <!-- my main.js -->
     <script src="./main.js"></script>
-</body>
-
+  </body>
 </html>
