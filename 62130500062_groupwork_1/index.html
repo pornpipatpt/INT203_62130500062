@@ -20,6 +20,7 @@
     <!-- https://v3.vuejs.org/guide/installation.html#release-notes -->
     <!-- Vue CDN -->
     <script src="https://unpkg.com/vue@next"></script>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
   </head>
   <link
     href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -37,14 +38,15 @@
       </div>
       <div class="flex w-1/2 pl-80 cursor-pointer flex self-center">
         <button
-          class="bg-white border rounded-full flex self-center p-1 bg-gradient-to-tr ml-8"
+          class="bg-white border rounded-full flex self-center p-1 bg-gradient-to-tr ml-8 
+          transition duration-500 ease-in-out bg-white hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
         >
           <img
             class="h-6 w-6 rounded-full ml-2"
             src="/images/person-icon-red-14.jpg"
             alt="you"
           />
-          <p class="ml-2 ">เข้าสู่ระบบ</p>
+          <p class="ml-1 font-mono">เข้าสู่ระบบ</p>
         </button>
       </div>
     </div>
@@ -58,19 +60,19 @@
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     
-    <img src="https://contentgarena-a.akamaihd.net/GOP/newshop_banners/HomePage_AirPay2_PC.png?v=1609348439" style="width:100%">
+    <img src="images/HomePage_AirPay1_PC.png" style="width:100%">
     
   </div>
 
   <div class="mySlides fade">
   
-    <img src="https://contentgarena-a.akamaihd.net/GOP/newshop_banners/HomePage_Facebook_PC.png?v=1581410884" style="width:100%">
+    <img src="images/HomePage_Facebook_PC.png" style="width:100%">
    
   </div>
 
   <div class="mySlides fade">
     
-    <img src="https://contentgarena-a.akamaihd.net/GOP/newshop_banners/HomePage_Howto_PC.png?v=1573788608" style="width:100%">
+    <img src="images/HomePage_Howto_PC.png" style="width:100%">
     
   </div>
 
@@ -86,7 +88,7 @@
     </div>
     <!-- เลือกเกมที่จะเติม -->
     <div class="flex w-1/2 pl-80 cursor-pointer mt-8">
-      <p>เลือกเกมที่จะเติม</p>
+      <p class="font-mono">เลือกเกมที่จะเติม</p>
     </div>
 
     <!-- Start Content -->
@@ -95,67 +97,31 @@
         <div class="w-80 h-48 bg-gray-100 p-4">
           <div class="grid justify-items-center hover:bg-white">
             <img
-              src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/010/091/icon.png"
+              src="images/shell.png"
               class="w-24 h-24"
               alt=""
             />
-            <p>เติมเชลล์</p>
+            <p  class="font-mono">เติมเชลล์</p>
           </div>
         </div>
         <div class="w-80 h-48 bg-gray-100 p-4">
           <div class="grid justify-items-center hover:bg-white">
             <img
-              src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/032/836/icon.png"
+              src="images/fifa.png"
               class="w-24 h-24"
               alt=""
             />
-            <p>FIFA Online 4 (TH)</p>
+            <p  class="font-serif">FIFA Online 4 (TH)</p>
           </div>
         </div>
         <div class="w-80 h-48 bg-gray-100 p-4">
           <div class="grid justify-items-center hover:bg-white">
             <img
-              src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/071/icon.png "
+              src="images/fifam.png"
               class="w-24 h-24"
               alt=""
             />
-            <p>FIFA Online 4 M TH</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Content -->
-    <!-- Start Content -->
-    <div class="w-full pl-60 cursor-pointer">
-      <div class="flex mb-1">
-        <div class="w-80 h-48 bg-gray-100 p-4">
-          <div class="grid justify-items-center hover:bg-white">
-            <img
-              src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/032/835/icon.png"
-              class="w-24 h-24"
-              alt=""
-            />
-            <p>Blade and Soul</p>
-          </div>
-        </div>
-        <div class="w-80 h-48 bg-gray-100 p-4">
-          <div class="grid justify-items-center hover:bg-white">
-            <img
-              src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/032/769/icon.png"
-              class="w-24 h-24"
-              alt=""
-            />
-            <p>Heroes of Newerth</p>
-          </div>
-        </div>
-        <div class="w-80 h-48 bg-gray-100 p-4">
-          <div class="grid justify-items-center hover:bg-white">
-            <img
-              src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/032/786/icon.png "
-              class="w-24 h-24"
-              alt=""
-            />
-            <p>League of Legends</p>
+            <p class="font-serif" >FIFA Online 4 M TH</p>
           </div>
         </div>
       </div>
@@ -167,68 +133,67 @@
         <div class="w-80 h-48 bg-gray-100 p-4">
           <div class="grid justify-items-center hover:bg-white">
             <img
-              src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/055/icon.png"
+              src="images/bns.png"
               class="w-24 h-24"
               alt=""
             />
-            <p>RoV : Mobile MOBA</p>
+            <p class="font-serif">Blade and Soul</p>
           </div>
         </div>
         <div class="w-80 h-48 bg-gray-100 p-4">
           <div class="grid justify-items-center hover:bg-white">
             <img
-              src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/067/icon.png"
+              src="images/hon.png"
               class="w-24 h-24"
               alt=""
             />
-            <p>Free Fire</p>
+            <p class="font-serif">Heroes of Newerth</p>
           </div>
         </div>
         <div class="w-80 h-48 bg-gray-100 p-4">
           <div class="grid justify-items-center hover:bg-white">
             <img
-              src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/099/icon.png"
+              src="images/lol.png"
               class="w-24 h-24"
               alt=""
             />
-            <p>FAIRY TAIL: Forces Unite!</p>
+            <p class="font-serif">League of Legends</p>
           </div>
         </div>
       </div>
     </div>
     <!-- End Content -->
-
     <!-- Start Content -->
     <div class="w-full pl-60 cursor-pointer">
       <div class="flex mb-1">
         <div class="w-80 h-48 bg-gray-100 p-4">
           <div class="grid justify-items-center hover:bg-white">
             <img
-              src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/082/icon.png"
+              src="images/rov.png"
               class="w-24 h-24"
               alt=""
             />
-            <p>Call of Duty: Mobile - Garena</p>
+            <p class="font-serif">RoV : Mobile MOBA</p>
           </div>
         </div>
         <div class="w-80 h-48 bg-gray-100 p-4">
           <div class="grid justify-items-center hover:bg-white">
             <img
-              src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/070/icon.png"
+              src="images/ff.png"
               class="w-24 h-24"
               alt=""
             />
-            <p>Speed Drifters</p>
+            <p class="font-serif">Free Fire</p>
           </div>
         </div>
         <div class="w-80 h-48 bg-gray-100 p-4">
           <div class="grid justify-items-center hover:bg-white">
             <img
-              src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/066/icon.png"
+              src="images/fry.png"
               class="w-24 h-24"
               alt=""
             />
-            <p>Contra: Return</p>
+            <p class="font-serif">FAIRY TAIL: Forces Unite!</p>
           </div>
         </div>
       </div>
@@ -241,11 +206,48 @@
         <div class="w-80 h-48 bg-gray-100 p-4">
           <div class="grid justify-items-center hover:bg-white">
             <img
-              src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/032/838/icon.png"
+              src="images/codm.png"
               class="w-24 h-24"
               alt=""
             />
-            <p>Ring of Elysium</p>
+            <p class="font-serif">Call of Duty: Mobile - Garena</p>
+          </div>
+        </div>
+        <div class="w-80 h-48 bg-gray-100 p-4">
+          <div class="grid justify-items-center hover:bg-white">
+            <img
+              src="images/sd.png"
+              class="w-24 h-24"
+              alt=""
+            />
+            <p class="font-serif">Speed Drifters</p>
+          </div>
+        </div>
+        <div class="w-80 h-48 bg-gray-100 p-4">
+          <div class="grid justify-items-center hover:bg-white">
+            <img
+              src="images/contra.png"
+              class="w-24 h-24"
+              alt=""
+            />
+            <p class="font-serif">Contra: Return</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Content -->
+
+    <!-- Start Content -->
+    <div class="w-full pl-60 cursor-pointer">
+      <div class="flex mb-1">
+        <div class="w-80 h-48 bg-gray-100 p-4">
+          <div class="grid justify-items-center hover:bg-white">
+            <img
+              src="images/roe.png"
+              class="w-24 h-24"
+              alt=""
+            />
+            <p class="font-serif">Ring of Elysium</p>
           </div>
         </div>
       </div>
@@ -260,16 +262,16 @@
         <p1>
           <a
             href="https://www.termgame.com/faq"
-            class="mr-4 text-gray-400 hover:underline hover:text-black"
-            >Terms</a
+            class="mr-4 text-gray-400 hover:underline hover:text-black font-serif"
+            >คำถามที่พบบ่อย</a
+          >
+          <a href="" class="mr-4 text-gray-400 hover:underline ">|</a>
+          <a href="https://platform.garena.in.th/tos/" class="mr-4 text-gray-400 hover:underline hover:text-black font-serif"
+            >ข้อกำหนดและเงื่อนไข</a
           >
           <a href="" class="mr-4 text-gray-400 hover:underline">|</a>
-          <a href="" class="mr-4 text-gray-400 hover:underline hover:text-black"
-            >Privacy Policy</a
-          >
-          <a href="" class="mr-4 text-gray-400 hover:underline">|</a>
-          <a href="" class="mr-4 text-gray-400 hover:underline hover:text-black"
-            >EULA</a
+          <a href="https://platform.garena.in.th/privacy/" class="mr-4 text-gray-400 hover:underline hover:text-black font-serif"
+            >นโยบายความเป็นส่วนตัว</a
           >
         </p1>
       </div>
