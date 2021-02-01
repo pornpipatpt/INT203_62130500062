@@ -1,6 +1,7 @@
 #Group Work 1 for Education
 ## Referent
 ### Web site Templaete
+![alt text](/62130500062_groupwork_1/images/termgamereadme.jpg?raw=true "Screenshot Termgame")
 - https://www.termgame.com/app
 - https://drive.google.com/file/d/1Xe9qP3mZuS53jvyfV7-9vZUdID5tnlFz/view?usp=sharing
 #### CSS Framework
