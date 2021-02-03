@@ -9,6 +9,14 @@ const app = {
             lastname:'Thumpan',
             career:'Gamer,Programmer',
             image:'./images/profile.jpg',
+            face:'My Facebook',
+            git:'My Github',
+            num1:'777',
+            post:'Posts',
+            num2:'1M',
+            follower:'Followers',
+            num3:'75',
+            following:'Following',
             url: 'https://www.facebook.com/pornpipat.thumpan.3/',
             url1: 'https://github.com/pornpipatpt'
 
